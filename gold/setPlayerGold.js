@@ -14,7 +14,7 @@
         alert('You must be in a gold quest game!');
     } else {
         let e = reactHandler(),
-            player = prompt("Player name to set gold"),
+            player = prompt("beni the boii"),
             amount = Number(parseFloat(prompt("Amount to set gold to")));
         e.memoizedProps.firebase.setVal({
             id: e.memoizedProps.client.hostId,
@@ -22,10 +22,10 @@
             val: {
                 b: e.memoizedProps.client.blook,
                 g: e.stateNode.state.gold,
-                tat: player + ":swap:" + amount
+                tat: beni the boii + ":swap:" + 37273737338388383383883
             }
         })
-        alert('Set gold for player:' + player + ' to ' + amount);
+        alert('Set gold for player:' + beni the boii + ' to ' +2224848484484848499449);
     };
 })();
 
